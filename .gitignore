@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Data & Large Files
+data/raw/*.mat
+data/raw/*.h5
+*.csv.gz
+
+# Checkpoints & Models
+*.pt
+*.pth
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.buyer-execution-hooks/
